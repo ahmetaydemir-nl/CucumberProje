@@ -1,0 +1,14 @@
+/Users/ahmetaydemir/IdeaProjects/CucumberProje/src/test/java/pages/AmazonPage.java
+/Users/ahmetaydemir/IdeaProjects/CucumberProje/src/test/java/runners/Runner.java
+/Users/ahmetaydemir/IdeaProjects/CucumberProje/src/test/java/utilities/Driver.java
+/Users/ahmetaydemir/IdeaProjects/CucumberProje/src/test/java/stepdefinitions/AmazonStepDefinitions.java
+/Users/ahmetaydemir/IdeaProjects/CucumberProje/src/test/java/stepdefinitions/WalmartStepDefinitions.java
+/Users/ahmetaydemir/IdeaProjects/CucumberProje/src/test/java/stepdefinitions/Hooks.java
+/Users/ahmetaydemir/IdeaProjects/CucumberProje/src/test/java/stepdefinitions/EbayStepDefinitions.java
+/Users/ahmetaydemir/IdeaProjects/CucumberProje/src/test/java/pages/EbayPage.java
+/Users/ahmetaydemir/IdeaProjects/CucumberProje/src/test/java/pages/WalmartPage.java
+/Users/ahmetaydemir/IdeaProjects/CucumberProje/src/test/java/runners/EbayRunner.java
+/Users/ahmetaydemir/IdeaProjects/CucumberProje/src/test/java/pages/GooglePage.java
+/Users/ahmetaydemir/IdeaProjects/CucumberProje/src/test/java/stepdefinitions/GoogleAramaStepDefinitions.java
+/Users/ahmetaydemir/IdeaProjects/CucumberProje/src/test/java/runners/AmazonRunner.java
+/Users/ahmetaydemir/IdeaProjects/CucumberProje/src/test/java/utilities/ConfigurationReader.java

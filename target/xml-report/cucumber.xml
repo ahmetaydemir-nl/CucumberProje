@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="18" time="211.256">
+    <testcase classname="Amazonda Urun Arama" name="TC07_kullanici amazonda dropdown ve aramakutusu kullanarak arama yapar" time="15.905">
+        <system-out><![CDATA[Given kullanici "http://amazon.com" sayfasina gider.........................passed
+And kullanici dropdownda "Automotive" secer.................................passed
+And kullanici aramakutusuna "phone holder" yazar ve arar....................passed
+Then kullanici sonuc sayisini ekrana yazdirir...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Amazonda Urun Arama" name="TC07_kullanici amazonda dropdown ve aramakutusu kullanarak arama yapar 2" time="7.009">
+        <system-out><![CDATA[Given kullanici "http://amazon.com" sayfasina gider.........................passed
+And kullanici dropdownda "Baby" secer.......................................passed
+And kullanici aramakutusuna "stroller" yazar ve arar........................passed
+Then kullanici sonuc sayisini ekrana yazdirir...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Amazonda Urun Arama" name="TC07_kullanici amazonda dropdown ve aramakutusu kullanarak arama yapar 3" time="9.462">
+        <system-out><![CDATA[Given kullanici "http://amazon.com" sayfasina gider.........................passed
+And kullanici dropdownda "Books" secer......................................passed
+And kullanici aramakutusuna "Miserables" yazar ve arar......................passed
+Then kullanici sonuc sayisini ekrana yazdirir...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Amazon Arama" name="TC02_kullanici amazonda arama yapar" time="6.124">
+        <system-out><![CDATA[Given kullanici amazon sayfasina gider......................................passed
+And kullanici aramakutusuna headphones yazar ve arar........................passed
+Then kullanici sonuc sayisini ekrana yazdirir...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Amazon Arama" name="TC03_kullanici amazonda arama yapar" time="5.778">
+        <system-out><![CDATA[Given kullanici amazon sayfasina gider......................................passed
+And kullanici aramakutusuna camera yazar ve arar............................passed
+Then kullanici sonuc sayisini ekrana yazdirir...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Ebayda Arama" name="TC06_kullanici ebayda urun arar" time="15.39">
+        <system-out><![CDATA[Given kullanici "http://ebay.com" sayfasina gider...........................passed
+And kullanici ebayda aramakutusuna "car" yazar..............................passed
+Then kullanici ebaydaki sonuc sayisini ekrana yazar.........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Ebayda Arama" name="TC06_kullanici ebayda urun arar 2" time="9.966">
+        <system-out><![CDATA[Given kullanici "http://ebay.com" sayfasina gider...........................passed
+And kullanici ebayda aramakutusuna "child" yazar............................passed
+Then kullanici ebaydaki sonuc sayisini ekrana yazar.........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Ebayda Arama" name="TC06_kullanici ebayda urun arar 3" time="20.63">
+        <system-out><![CDATA[Given kullanici "http://ebay.com" sayfasina gider...........................passed
+And kullanici ebayda aramakutusuna "bike" yazar.............................passed
+Then kullanici ebaydaki sonuc sayisini ekrana yazar.........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Amazon Birden Fazla Arama" name="TC05_kullanici amazonda urun arar" time="9.361">
+        <system-out><![CDATA[Given kullanici amazon sayfasina gider......................................passed
+And kullanici aramakutusuna "headphones" yazar ve arar......................passed
+Then kullanici sonuc sayisini ekrana yazdirir...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Amazon Birden Fazla Arama" name="TC05_kullanici amazonda urun arar 2" time="4.437">
+        <system-out><![CDATA[Given kullanici amazon sayfasina gider......................................passed
+And kullanici aramakutusuna "camera" yazar ve arar..........................passed
+Then kullanici sonuc sayisini ekrana yazdirir...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Amazon Birden Fazla Arama" name="TC05_kullanici amazonda urun arar 3" time="5.098">
+        <system-out><![CDATA[Given kullanici amazon sayfasina gider......................................passed
+And kullanici aramakutusuna "drone" yazar ve arar...........................passed
+Then kullanici sonuc sayisini ekrana yazdirir...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Amazon Birden Fazla Arama" name="TC05_kullanici amazonda urun arar 4" time="6.576">
+        <system-out><![CDATA[Given kullanici amazon sayfasina gider......................................passed
+And kullanici aramakutusuna "pencil" yazar ve arar..........................passed
+Then kullanici sonuc sayisini ekrana yazdirir...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Amazon Birden Fazla Arama" name="TC05_kullanici amazonda urun arar 5" time="11.967">
+        <system-out><![CDATA[Given kullanici amazon sayfasina gider......................................passed
+And kullanici aramakutusuna "tv" yazar ve arar..............................passed
+Then kullanici sonuc sayisini ekrana yazdirir...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Google Arama" name="TC01_kullanici googleda arama yapar" time="8.051">
+        <system-out><![CDATA[Given kullanici google sayfasina gider......................................passed
+And techproeducation aramasi yapar..........................................passed
+Then sayfa basligini kontrol eder...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Amazon Urun Arama" name="TC04_kullanici amazonda urun aramasi yapar" time="7.983">
+        <system-out><![CDATA[Given kullanici amazon sayfasina gider......................................passed
+And kullanici aramakutusuna "drone" yazar ve arar...........................passed
+Then kullanici sonuc sayisini ekrana yazdirir...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Walmart Urun Arama" name="TC08_kullanici walmartta urun arar" time="17.814">
+        <system-out><![CDATA[Given kullanici "https://walmart.com" sayfasina gider.......................passed
+And kullanici walmart aramakutusuna "calculator" yazar ve arar..............passed
+Then kullanici walmart sonuc sayisini ekrana yazdirir.......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Walmart Urun Arama" name="TC08_kullanici walmartta urun arar 2" time="18.669">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.result\-summary\-container&quot;}&#10;  (Session info: chrome=85.0.4183.121)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'MacBook-Pro-van-Ahmet.local', ip: 'fe80:0:0:0:1cdd:8a11:90d7:3a0b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/fj/v09v1fnj7n1...}, goog:chromeOptions: {debuggerAddress: localhost:50551}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 2fde657deef55601903cbd9442af85f5&#10;*** Element info: {Using=class name, value=result-summary-container}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given kullanici "https://walmart.com" sayfasina gider.......................passed
+And kullanici walmart aramakutusuna "watch" yazar ve arar...................passed
+Then kullanici walmart sonuc sayisini ekrana yazdirir.......................failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".result\-summary\-container"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-van-Ahmet.local', ip: 'fe80:0:0:0:1cdd:8a11:90d7:3a0b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.6', java.version: '14.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/fj/v09v1fnj7n1...}, goog:chromeOptions: {debuggerAddress: localhost:50551}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2fde657deef55601903cbd9442af85f5
+*** Element info: {Using=class name, value=result-summary-container}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy18.getText(Unknown Source)
+	at stepdefinitions.WalmartStepDefinitions.kullanici_walmart_sonuc_sayisini_ekrana_yazdirir(WalmartStepDefinitions.java:14)
+	at ✽.kullanici walmart sonuc sayisini ekrana yazdirir(file:///Users/ahmetaydemir/IdeaProjects/CucumberProje/src/test/resources/features/walmart.feature:6)
+]]></failure>
+    </testcase>
+    <testcase classname="Walmart Urun Arama" name="TC08_kullanici walmartta urun arar 3" time="30.736">
+        <system-out><![CDATA[Given kullanici "https://walmart.com" sayfasina gider.......................passed
+And kullanici walmart aramakutusuna "flower" yazar ve arar..................passed
+Then kullanici walmart sonuc sayisini ekrana yazdirir.......................passed
+]]></system-out>
+    </testcase>
+</testsuite>
